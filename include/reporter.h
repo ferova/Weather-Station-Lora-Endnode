@@ -20,6 +20,7 @@ void Reporter::report(Parser &inp){
     LoRa.print(">");
     LoRa.print(out);
     LoRa.endPacket();
+    Serial.print("Sent data.");
 
 }
 

@@ -7,8 +7,8 @@ class Parser {
         char init, end, delimiter;
         float output[9], temp_output[9], change[9];
         char buffer[20];
-        String sensors[9] = {"temperature","humidity","dewpoint","pressure","light",
-        "speed","direction","rainfall", "battery"};
+        String sensors[9] = {"0","1","2","3","4",
+        "5","6","7", "8"};
     public:
         Parser(char init, char delimiter, char end, int size);
         ~Parser(){};

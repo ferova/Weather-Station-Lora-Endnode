@@ -40,7 +40,7 @@ void setup() {
   if (!LoRa.begin(915600000)) {
     Serial.println("Starting LoRa failed!");
     while (1);
-  }
+  } 
   LoRa.setSyncWord(0x34);
 
 }
